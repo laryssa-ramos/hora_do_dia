@@ -8,7 +8,7 @@ function carregar(){
     msg.innerHTML = `Agora são ${hora}:${min}`
     
     if (hora >= 0 && hora < 12){
-        img.src = 'img/manha.jpg'
+        img.src = 'img/manha.jpg' 
         document.body.style.background = '#aba1ab'
         saudacao.innerHTML = 'Bom dia!'
 
